@@ -11,8 +11,16 @@ public class Tamano {
         this.precio = precio;
     }
 
-    public int getId() { return id; }
-    public String getDescripcion() { return descripcion; }
-    public double getPrecio() { return precio; }
+    public int getId() {
+        return id;
+    }
+
+    public String getDescripcion() {
+        return descripcion;
+    }
+
+    public double getPrecio() {
+        return precio;
+    }
 }
 

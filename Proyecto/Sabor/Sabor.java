@@ -1,5 +1,4 @@
 package Proyecto.Sabor;
-
 public class Sabor {
     private int id;
     private String nombre;
@@ -10,8 +9,16 @@ public class Sabor {
         this.nombre = nombre;
         this.precio = precio;
     }
-    public int getId (){ return id; }
-    public String getNombre() { return nombre; }
-    public double getPrecio() { return precio; }
-}
 
+    public int getId() {
+        return id;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public double getPrecio() {
+        return precio;
+    }
+}

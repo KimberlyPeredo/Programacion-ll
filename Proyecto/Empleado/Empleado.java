@@ -1,4 +1,5 @@
 package Proyecto.Empleado;
+
 public class Empleado {
     private int id;
     private String nombre;
@@ -11,6 +12,7 @@ public class Empleado {
     public int getId() {
         return id;
     }
+
     public String getNombre() {
         return nombre;
     }
